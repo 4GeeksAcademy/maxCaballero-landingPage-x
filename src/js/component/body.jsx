@@ -1,9 +1,13 @@
 import React from 'react';
-import Footer from 'footers.jsx';
+import Jumbotron from './jumbotron.jsx';
+import Card from './card.jsx';
+import Footer from './footers.jsx';
 
 const Body = () => {
     return (
-        <Footer />
+    <Jumbotron />
+    <Card />
+    <Footer />
     )
 }
 export default Body;
