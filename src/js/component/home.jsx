@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "./footer.jsx";
+import Header from "./header.jsx";
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 
@@ -7,8 +7,8 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	return (
 		<div className="text-center">
+			<Header />
 
-			<Footer />
 		</div>
 	);
 };
